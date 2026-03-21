@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class frmLogin : Form
+    public partial class frmAggiorna : Form
     {
-        public frmLogin()
+        public frmAggiorna()
         {
             InitializeComponent();
-        }
-
-        private void btnTest_Click(object sender, EventArgs e)
-        {
-
-            Application.EnableVisualStyles();
-            frmCerca frm = new frmCerca();
-            frm.Show();
         }
     }
 }
