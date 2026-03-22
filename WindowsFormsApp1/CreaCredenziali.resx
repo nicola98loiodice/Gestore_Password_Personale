@@ -118,6 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        DAAACwwBP0AiyAAAA1NJREFUeF7tmsmuD0EUxj+ExLg2PQDBM0jYELEwxAIPYBYS74KdxBOYHgELRBA2
+        LAx7c0SM+ZJq6Xzq36dOdVfdvv/0LzmLe+vU+c45PVR13QtMTExMTExMTKTzZ+RWHBUcmxVHBcdmxVHB
+        sVlxqgsaVM+nuqBB9XyqCxpUz6e6oEH1fPoKrgBwBsB9AF+C3QNwOox56ZuPmz6CGwE8isRo7CGADTrJ
+        QGMUQ4W8gry6XcU39gDAcp3cgc4vhgp5BXnb69xZdlInd6Bzi6FCXkE+8+15N8IjsQnATRm7q5M7yM3H
+        jQp5BT/LPBbesFnGPrXGLHLzqY6VqDU+i9x51bEStcZnkTsvG6+g+nvNwuvfG6+g+nvNwuvfG6+g+nvN
+        wuvfG6+g+nvNwuufjQqlCo7NPxsVShUcm382KpQqODb/bFQoVXBs/tXRBL3WBb8l1J/nCy8A3AlnDNxm
+        LyiaoNdi8MzgGoDvEX+1HwCuhmYNggpYqL/XlMMA3kf8LOMH1n4NloMGtlB/r7U5B+BXxCfVOJfnEr3Q
+        oLU4BOB3RP8xgFMAtgBYBWA1gG0AzgN4GvFnE3rdCRqwBnx+P4ruNwAnACxR5xZLQ3P0XcFY3rPH/wqv
+        2YDrkeJ3qlMHuyJNuKJOFlp4rQbw5Ihv8rYmr7wXLontGIzZPpUy0cJrNeCS6D0Jt/Ys9gF4B+AtgL2t
+        3y8D8Exi8fFIRguv1YDboseVoAsW3vi+kbELEuuWjI+S15L0VnUQuhqwXWJxxzh6vkrSK9VB4G3PJrD4
+        PTK2VmJ5Tp8XDO7t20mziFzWSSwuh6PnlSTNTU4ugzwC7QC0khyJLIEX1cnBIC/BWg2IFc+fD6pjIrFl
+        0PM3yH/UaMCs4vn7XM5G4rk2Qg2lG1Ci+N2RrfBldUqlZAOGLp63Pa+8Fv8BwHp1TqVUA3KLPxBejDvC
+        5/Ca8LbnC0+feRo/h7ldzkYDlrKU4mNN6zIWz4+iXmjQElaieN72va58gwYe2n4COKqiAs8FU4unH7/9
+        3Qcgs1CBoS3nyrNpL8O2mf+J8jxscrjOZy11NdEGKDquxuKP66TFhBak6PhcFU+0KEXH28UfU+fFiBam
+        6PhcFU+0OMvmDi3QsrlDC7Rs7tACLRuUv8F2Nj97j4t5AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAE0GAABNBgAAAAAAAAAA

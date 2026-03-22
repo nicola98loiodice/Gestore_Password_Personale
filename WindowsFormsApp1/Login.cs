@@ -24,5 +24,11 @@ namespace WindowsFormsApp1
             frmCerca frm = new frmCerca();
             frm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmCreaUtente frm = new frmCreaUtente();
+            frm.ShowDialog();
+        }
     }
 }

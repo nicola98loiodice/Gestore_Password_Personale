@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCerca));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,7 +44,13 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnVisualizzaElenco = new System.Windows.Forms.Button();
             this.btnCreaNuovo = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.gestisciProfiloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aggiornaDatiDiAccessoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminaProfiloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -63,7 +70,7 @@
             this.label1.Location = new System.Drawing.Point(13, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(462, 36);
+            this.label1.Size = new System.Drawing.Size(569, 48);
             this.label1.TabIndex = 9;
             this.label1.Text = "Cerca il sito o la pagina a cui sei iscritto dal menù a tendina \r\ne ti verranno m" +
     "ostrate le tue credenziali.\r\n";
@@ -75,7 +82,7 @@
             this.lblCerca.Location = new System.Drawing.Point(35, 134);
             this.lblCerca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCerca.Name = "lblCerca";
-            this.lblCerca.Size = new System.Drawing.Size(48, 16);
+            this.lblCerca.Size = new System.Drawing.Size(59, 20);
             this.lblCerca.TabIndex = 10;
             this.lblCerca.Text = "Cerca";
             // 
@@ -95,7 +102,7 @@
             this.lblName.Location = new System.Drawing.Point(30, 250);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(52, 16);
+            this.lblName.Size = new System.Drawing.Size(63, 20);
             this.lblName.TabIndex = 12;
             this.lblName.Text = "Nome:";
             // 
@@ -106,7 +113,7 @@
             this.lblEmail.Location = new System.Drawing.Point(33, 192);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(50, 16);
+            this.lblEmail.Size = new System.Drawing.Size(62, 20);
             this.lblEmail.TabIndex = 13;
             this.lblEmail.Text = "Email:";
             // 
@@ -117,7 +124,7 @@
             this.lblPassword.Location = new System.Drawing.Point(4, 306);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(79, 16);
+            this.lblPassword.Size = new System.Drawing.Size(97, 20);
             this.lblPassword.TabIndex = 14;
             this.lblPassword.Text = "Password:";
             // 
@@ -163,6 +170,7 @@
             this.btnAggiorna.Size = new System.Drawing.Size(100, 100);
             this.btnAggiorna.TabIndex = 18;
             this.btnAggiorna.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolTip1.SetToolTip(this.btnAggiorna, "Aggiorna credenziali selezionate");
             this.btnAggiorna.UseVisualStyleBackColor = false;
             this.btnAggiorna.Click += new System.EventHandler(this.btnAggiorna_Click);
             // 
@@ -178,6 +186,7 @@
             this.btnDelete.Size = new System.Drawing.Size(100, 100);
             this.btnDelete.TabIndex = 19;
             this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.toolTip1.SetToolTip(this.btnDelete, "Elimina credenziali selezionate");
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -193,7 +202,9 @@
             this.btnVisualizzaElenco.Size = new System.Drawing.Size(100, 100);
             this.btnVisualizzaElenco.TabIndex = 20;
             this.btnVisualizzaElenco.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.toolTip1.SetToolTip(this.btnVisualizzaElenco, "Lista iscrizioni completa");
             this.btnVisualizzaElenco.UseVisualStyleBackColor = false;
+            this.btnVisualizzaElenco.Click += new System.EventHandler(this.btnVisualizzaElenco_Click);
             // 
             // btnCreaNuovo
             // 
@@ -207,8 +218,45 @@
             this.btnCreaNuovo.Name = "btnCreaNuovo";
             this.btnCreaNuovo.Size = new System.Drawing.Size(100, 100);
             this.btnCreaNuovo.TabIndex = 21;
+            this.toolTip1.SetToolTip(this.btnCreaNuovo, "Crea nuove credenziali");
             this.btnCreaNuovo.UseVisualStyleBackColor = false;
             this.btnCreaNuovo.Click += new System.EventHandler(this.btnCreaNuovo_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.SteelBlue;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestisciProfiloToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(801, 28);
+            this.menuStrip1.TabIndex = 22;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // gestisciProfiloToolStripMenuItem
+            // 
+            this.gestisciProfiloToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aggiornaDatiDiAccessoToolStripMenuItem,
+            this.eliminaProfiloToolStripMenuItem});
+            this.gestisciProfiloToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gestisciProfiloToolStripMenuItem.Name = "gestisciProfiloToolStripMenuItem";
+            this.gestisciProfiloToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
+            this.gestisciProfiloToolStripMenuItem.Text = "Gestisci profilo";
+            // 
+            // aggiornaDatiDiAccessoToolStripMenuItem
+            // 
+            this.aggiornaDatiDiAccessoToolStripMenuItem.Name = "aggiornaDatiDiAccessoToolStripMenuItem";
+            this.aggiornaDatiDiAccessoToolStripMenuItem.Size = new System.Drawing.Size(276, 26);
+            this.aggiornaDatiDiAccessoToolStripMenuItem.Text = "Aggiorna dati di accesso";
+            this.aggiornaDatiDiAccessoToolStripMenuItem.Click += new System.EventHandler(this.aggiornaDatiDiAccessoToolStripMenuItem_Click);
+            // 
+            // eliminaProfiloToolStripMenuItem
+            // 
+            this.eliminaProfiloToolStripMenuItem.Name = "eliminaProfiloToolStripMenuItem";
+            this.eliminaProfiloToolStripMenuItem.Size = new System.Drawing.Size(276, 26);
+            this.eliminaProfiloToolStripMenuItem.Text = "Elimina profilo";
+            this.eliminaProfiloToolStripMenuItem.Click += new System.EventHandler(this.eliminaProfiloToolStripMenuItem_Click);
             // 
             // frmCerca
             // 
@@ -230,11 +278,15 @@
             this.Controls.Add(this.lblCerca);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmCerca";
-            this.Text = "Gestore Password";
+            this.Text = "Gestore Password - Home";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,5 +308,10 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnVisualizzaElenco;
         private System.Windows.Forms.Button btnCreaNuovo;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem gestisciProfiloToolStripMenuItem;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolStripMenuItem aggiornaDatiDiAccessoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eliminaProfiloToolStripMenuItem;
     }
 }

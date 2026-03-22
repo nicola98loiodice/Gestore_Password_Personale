@@ -34,5 +34,23 @@ namespace WindowsFormsApp1
             frmCreaCredenziali frm = new frmCreaCredenziali();
             frm.ShowDialog();
         }
+
+        private void btnVisualizzaElenco_Click(object sender, EventArgs e)
+        {
+            frmElenco frm = new frmElenco();
+            frm.Show();
+        }
+
+        private void aggiornaDatiDiAccessoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAggiornaUtente frm = new frmAggiornaUtente();
+            frm.ShowDialog();
+        }
+
+        private void eliminaProfiloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEliminaUtente frm = new frmEliminaUtente();
+            frm.ShowDialog();
+        }
     }
 }

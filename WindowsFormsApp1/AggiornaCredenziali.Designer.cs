@@ -51,7 +51,7 @@
             this.lblAggiorna.Location = new System.Drawing.Point(16, 9);
             this.lblAggiorna.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAggiorna.Name = "lblAggiorna";
-            this.lblAggiorna.Size = new System.Drawing.Size(547, 36);
+            this.lblAggiorna.Size = new System.Drawing.Size(682, 48);
             this.lblAggiorna.TabIndex = 10;
             this.lblAggiorna.Text = "Inserisci qui le modifiche che vuoi apportare alle credenziali selezionate\r\n\r\n";
             // 
@@ -62,7 +62,7 @@
             this.lblSitoSelezionato.Location = new System.Drawing.Point(16, 84);
             this.lblSitoSelezionato.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSitoSelezionato.Name = "lblSitoSelezionato";
-            this.lblSitoSelezionato.Size = new System.Drawing.Size(120, 16);
+            this.lblSitoSelezionato.Size = new System.Drawing.Size(146, 20);
             this.lblSitoSelezionato.TabIndex = 11;
             this.lblSitoSelezionato.Text = "Sito Selezionato";
             // 
@@ -82,7 +82,7 @@
             this.lblEmail.Location = new System.Drawing.Point(107, 142);
             this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(50, 16);
+            this.lblEmail.Size = new System.Drawing.Size(62, 20);
             this.lblEmail.TabIndex = 14;
             this.lblEmail.Text = "Email:";
             // 
@@ -93,7 +93,7 @@
             this.lblName.Location = new System.Drawing.Point(107, 188);
             this.lblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(52, 16);
+            this.lblName.Size = new System.Drawing.Size(63, 20);
             this.lblName.TabIndex = 15;
             this.lblName.Text = "Nome:";
             // 
@@ -104,7 +104,7 @@
             this.lblPassword.Location = new System.Drawing.Point(71, 233);
             this.lblPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(79, 16);
+            this.lblPassword.Size = new System.Drawing.Size(97, 20);
             this.lblPassword.TabIndex = 16;
             this.lblPassword.Text = "Password:";
             // 
@@ -193,7 +193,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAggiorna";
-            this.Text = "Aggiorna Credenziali";
+            this.Text = "Gestore password - Aggiorna Credenziali";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
