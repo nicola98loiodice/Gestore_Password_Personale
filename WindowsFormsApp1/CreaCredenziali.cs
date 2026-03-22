@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class frmCerca : Form
+    public partial class frmCreaCredenziali : Form
     {
-        public frmCerca()
+        public frmCreaCredenziali()
         {
             InitializeComponent();
         }
 
-        private void btnAggiorna_Click(object sender, EventArgs e)
+        private void btnAnnulla_Click(object sender, EventArgs e)
         {
-            Application.EnableVisualStyles();
-            frmAggiorna frm = new frmAggiorna();
-            frm.ShowDialog();
+            Close();
         }
     }
 }
