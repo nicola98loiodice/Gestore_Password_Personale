@@ -236,6 +236,7 @@
             // 
             // gestisciProfiloToolStripMenuItem
             // 
+            this.gestisciProfiloToolStripMenuItem.BackColor = System.Drawing.Color.PowderBlue;
             this.gestisciProfiloToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aggiornaDatiDiAccessoToolStripMenuItem,
             this.eliminaProfiloToolStripMenuItem});
