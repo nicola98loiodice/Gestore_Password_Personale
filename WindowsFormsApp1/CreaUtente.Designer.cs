@@ -114,6 +114,7 @@
             this.btnAnnullaProfilo.TabIndex = 24;
             this.btnAnnullaProfilo.Text = "Annulla";
             this.btnAnnullaProfilo.UseVisualStyleBackColor = false;
+            this.btnAnnullaProfilo.Click += new System.EventHandler(this.btnAnnullaProfilo_Click);
             // 
             // btnSalvaProfilo
             // 
@@ -127,6 +128,7 @@
             this.btnSalvaProfilo.TabIndex = 23;
             this.btnSalvaProfilo.Text = "Salva";
             this.btnSalvaProfilo.UseVisualStyleBackColor = false;
+            this.btnSalvaProfilo.Click += new System.EventHandler(this.btnSalvaProfilo_Click);
             // 
             // frmCreaUtente
             // 

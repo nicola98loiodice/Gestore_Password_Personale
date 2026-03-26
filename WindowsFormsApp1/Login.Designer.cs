@@ -37,7 +37,7 @@
             this.btnAccedi = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnTest = new System.Windows.Forms.Button();
+            this.lblError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,6 +103,7 @@
             this.btnAccedi.TabIndex = 5;
             this.btnAccedi.Text = "Accedi";
             this.btnAccedi.UseVisualStyleBackColor = true;
+            this.btnAccedi.Click += new System.EventHandler(this.btnAccedi_Click);
             // 
             // button1
             // 
@@ -126,16 +127,13 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // btnTest
+            // lblError
             // 
-            this.btnTest.Location = new System.Drawing.Point(535, 65);
-            this.btnTest.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(100, 28);
-            this.btnTest.TabIndex = 8;
-            this.btnTest.Text = "Test";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            this.lblError.AutoSize = true;
+            this.lblError.Location = new System.Drawing.Point(157, 348);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(0, 16);
+            this.lblError.TabIndex = 9;
             // 
             // frmLogin
             // 
@@ -143,7 +141,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(773, 409);
-            this.Controls.Add(this.btnTest);
+            this.Controls.Add(this.lblError);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAccedi);
@@ -173,7 +171,7 @@
         private System.Windows.Forms.Button btnAccedi;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.Label lblError;
     }
 }
 
